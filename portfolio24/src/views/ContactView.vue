@@ -1,18 +1,28 @@
+<script setup> // Image import here <33
+import imagePathContact from '@/assets/pngFiles/scribble08.png';
+
+</script>
+
+
 <template>
 <div class="bg-amber-100 w-screen h-screen grid grid-rows-3 font-AndaleMo pl-10">
+    <div class="absolute size-12/12 pt-40 opacity-60">
+    <img :src="imagePathContact" alt="woopss">
+  </div>
 
-    <div class="contact pt-20 flex flex-col text-sm">
+
+    <div class="contact pt-20 flex flex-col text-sm z-10">
         <RouterLink to="/">// CONTACT</RouterLink> <!-- WORKS AS A ROUTERLINK TO HOMEPAGE-->
     </div> 
 
-    <div class="text-3xl pt-5">
+    <div class="text-3xl pt-5 z-10">
         <h1>WELL - SINCE YOU'RE HERE I'M GUESSING YOU WANNA STAY IN THOUCH?</h1>
         <br>
-        <p class="text-sm leading-loose"> For business inquiries // <br>
+        <p class="text-sm leading-loose z-10"> For business inquiries // <br>
             E-mail: emma.engledall@gmail.com <br> 
         </p>
 
-         <div class="text-sm leading-loose"> SoMe:
+         <div class="text-sm leading-loose z-10"> SoMe:
             
             <a href="https://www.linkedin.com/in/emma-chantal-engledall-1a36002a0/ ">LinkedIn </a>
             <a href="https://github.com/emmaengledall">// Github </a>
@@ -20,7 +30,7 @@
          </div>
     </div>
 
-    <div class="text-sm leading-loose">
+    <div class="text-sm leading-loose z-10">
         <p>For loveletters // <br>
             ... i prefer homing pigeons </p>
     </div>
