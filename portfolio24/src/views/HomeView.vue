@@ -37,7 +37,7 @@
           <img :src="imagePathAbout" alt="woopss">
         </div> 
         <!--draw dash -->
-        <div class="about size-7/12 absolute top-[3rem] left-[7rem] z-10 opacity-60">
+        <div class="about size-7/12 absolute top-[4rem] left-[7rem] z-10 opacity-50">
         <RouterLink to="/about" >
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326.34 140.2">
             <path class="cls cls-1" d="M.11,139.15C22.32,96.01,49.8,55.59,81.75,19.08c6.73-7.7,14.08-15.5,23.74-18.87-12.86,34.33-25.72,68.65-38.58,102.98-1.8,4.81-3.63,9.98-2.44,14.98s6.8,9.25,11.45,7.06"/>
@@ -62,7 +62,7 @@
           <img :src="imagePathPortfolio" alt="wooops2">
         </div>
         <!--draw dash -->
-        <div class="portfolio size-7/12 absolute top-[4rem] left-[8rem] z-10 opacity-60 stroke-black fill-none">
+        <div class="portfolio size-7/12 absolute top-[4rem] left-[7rem] z-10 opacity-50 stroke-black fill-none">
         <RouterLink to="/portfolio">
           <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361.84 131.34">
             <path class="por por-1" d="M.23,126.74C14.58,90.14,32.79,55.07,54.47,22.28"/>
@@ -87,7 +87,7 @@
           <img :src="imagePathContact" alt="wooops3" >
         </div>
                                                 <!--draw dash -->
-          <div class="contact size-8/12 absolute top-[4rem] left-[7rem] z-10 opacity-60 stroke-black fill-none">
+          <div class="contact size-8/12 absolute top-[4rem] left-[7rem] z-10 opacity-50 stroke-black fill-none">
           <RouterLink to="/contact">
             <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 379.17 117.52">
               <path class="con con-1" d="M106.33,14.14C101.79,4.74,92.19.1,83.14.39s-17.64,4.73-25.59,9.92c-16.74,10.94-31.8,25.58-44.19,42.97-4.82,6.77-9.32,14.12-11.58,22.6-2.26,8.48-1.99,18.32,2.22,25.66,5.53,9.65,16.11,12.73,25.79,14.12,19.04,2.72,38.45,1.72,57.22-2.96"/>
