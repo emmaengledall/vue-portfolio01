@@ -13,7 +13,7 @@ I’ve extracted the brightness value, using brightness function, and afterwards
       <div class="grid gap-5 ">
         
         <!-- Loop through your pictures here -->
-        <div v-for="(image, index) in images" :key="index" class="relative">
+        <div v-for="(image, index) in images" :key="index" class="relative flex justify-center items-center">
           <img :src="image.src" :alt="image.alt" class="w-[80%] h-[auto] ">
         </div>
       </div>

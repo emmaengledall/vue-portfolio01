@@ -24,7 +24,7 @@ The lava is made with a ocean modifier, to give it a bumpy look and the texture 
       <div class="grid gap-5 ">
         
         <!-- Loop through your pictures here -->
-        <div v-for="(image, index) in images" :key="index" class="relative">
+        <div v-for="(image, index) in images" :key="index" class="relative flex justify-center items-center">
           <img :src="image.src" :alt="image.alt" class="w-[80%] h-[auto] ">
         </div>
       </div>
