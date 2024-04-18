@@ -21,7 +21,7 @@ import imagePortrait from '@/assets/pngFiles/portrait01.png';
 
 
 
-<div class="font-AndaleMo pl-10 pt-44 justify-center z-10 row-start-1 col-start-1 "> <!--MAIN TEXT ON ABOUT PAGE-->
+<div class="font-AndaleMo pl-10 pt-44 justify-center z-10 row-start-1 col-start-1 "> <!--MAIN TEXT ON THE ABOUT PAGE-->
   <h1 class="text-3xl">HI THERE, I'M EMMA-CHANTAL. </h1> 
   <br>
   <p class="relative text-sm leading-loose">
