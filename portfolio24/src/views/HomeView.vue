@@ -102,14 +102,14 @@
 
 
                                             <!-- WELCOME TEXT ON WEBSITE-->
-      <div class="relative leading-loose row-start-3 flex-col justify-center pt-10 pl-20" > 
+      <div class="relative leading-loose row-start-3 flex-col justify-center pt-24 pl-20" > 
         <h1 class="text-sm"> EMMA-CHANTAL ENGLEDALL</h1>
         
           <p class="text-sm">
-              frontend developer / website designer / coded designer <br><br>
-              technical designer with passion for design and appearance. <br>
-              currently studying visuel communication with focus on programming <br>
-              at the Dansih school of media and journalism. </p>
+              frontend developer // website designer // coded designer <br><br>
+              With a strong technical background and a passion for aesthetics <br> and design. 
+              Currently pursuing a degree in Visual Communication <br>
+              with a focus on programming at the Danish School of Media and Journalism </p>
       </div>
 
 
